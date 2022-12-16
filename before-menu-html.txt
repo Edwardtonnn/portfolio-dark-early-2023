@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Edward Singleton</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png">
+    <!-- Import Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Import Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom Styles  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   
+    <!-- Opener Sequence  -->
+    <div class="container-fluid opener-wrapper">
+        
+            <img class="logo-opener" src="https://edwardtonnn.com/wp-content/uploads/2022/03/logo-white.svg" alt="Logo White" height="55px" width="100%">
+        
+        <div class="container-opener"></div>
+        
+        
+    </div>
+
+    <!-- Navbar Section  -->
+    <nav class="navbar navbar-expand-lg navbar-dark w-100">
+        <a href="#home">
+            <img width="250px" src="https://edwardtonnn.com/wp-content/uploads/2022/03/logo-white.svg" class="img-fluid"
+                alt="Edward Singleton Portfolio website logo white">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#work">Work Experience</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="mailto:Edwardtonnn@gmail.com">E-Mail Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Start of container-home  -->
+    <div id="home" class="container-fluid container-home">
+        <!-- <video controls autoplay muted loop style="height:100vh; width:100vw;pointer-events: none;">
+            <source src="images/homebgvideoCompressed.mp4" type="video/mp4">
+            <source src="images/homebgvideoOGGCompressed.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video> -->
+
+        <div class="row h-100 ">
+            <div class="col-lg-5 d-flex  align-items-center justify-content-center">
+                <div class="container-social">
+                    <a href="https://www.facebook.com/Edwardtonnn" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/edwardtonnn/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/edwardtonnn" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/Edwardtonnn" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="https://codepen.io/Edwardtonnn/" target="_blank">
+                        <ion-icon name="logo-codepen"></ion-icon>
+                    </a>
+                </div>
+                <img src="images\thatsme.jpg" alt="Edward Singleton" class="img-fluid selfie" width="400px"
+                    height="auto">
+
+
+
+
+
+
+
+                <!-- Music Player  -->
+                <!-- <div class="music-container" id="music-container">
+
+                    <div class="img-container" alt="" image cover>
+                        <img src="images/music/Clash.jpg" alt="Whoopty Latin Mix" id="cover">
+                    </div>
+
+                    <div class="music-info">
+                        <p id="title" class="text-white">Whoopty Latin Mix</p>
+                    </div>
+
+                    <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <div class="navigation">
+                        <ion-icon id="backBtn" name="play-back-outline"></ion-icon>
+                        <ion-icon id="playBtn" name="play-sharp"></ion-icon>
+
+                        <ion-icon id="fwdBtn" name="play-forward-outline"></ion-icon>
+                    </div>
+                    <audio id="audio" src="music/Clash.mp3"></audio>
+                </div> -->
+                <!-- End Music Player  -->
+
+
+
+
+                <!-- End Col Div -->
+            </div>
+            <div id="home" class="col-lg-7 d-flex flex-column justify-content-center container-into-text">
+                <h1 class="text-white">Front-End Developer</h1>
+                <p class="text-white">Front-End Developer & Designer with over 5 years of professional experience
+                    working with HTML, CSS, JavaScript & Adobe Suite. Founder of <a href="https://lawebclub.com/"
+                        target="_blank">Los Angeles Web Club</a>.</p>
+                <div class="d-flex flex-md-column">
+                    <a href="#portfolio" class="btn btn-dark m-2">View My Work</a>
+                    <a href="images/2022resume.pdf" class="btn btn-dark m-2" target="_blank">Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of container home  -->
+
+    <!-- Start of GSAP horizontal section  -->
+
+
+    <div id="portfolio" class="portfolioWrapper">
+        <!-- Start of Container 1  -->
+        <div class="container-fluid container-port-1 container-hz d-flex justify-content-center">
+            <div class="color-overlay"></div>
+            <div class="row">
+                <div class="col-lg-6 p-5 d-flex flex-column justify-content-center">
+                    <h2 class="text-white mb-4">Mangan Inc. <BR>Power Distribution</h2>
+                        <div class="row my-2">
+                            <div class=" col-lg-5 ">
+                            <h3 class="text-white">Energy Company</h3>
+                            
+                        </div>
+                        <div class="col-lg-7 d-md-flex d-none justify-content-around">
+                            <img src="images/White-logo-300x133.png" alt="Mangan Inc. White Logo" class="img-fluid"
+                                width="100px">
+
+                            <img src="images/wp-logo.png" alt="WordPress Logo White" class="img-fluid" width="100px">
+
+                        </div>
+                    </div>                    
+                    
+                    <p class="text-white font-weight-bold">The Challenge</p>
+                    <p class="text-white container-text">Mangan Power Distribution was quickly expanding and needed an elegant website
+                        to showcase the power and electrical distribution arm of the company. My challeng was to design
+                        a website that was cohesive with the already existing Mangan brand yet different enough to
+                        warrant the $6,000 USD price tag. This is the site I designed and built that is still being used today.</p>
+
+                    <p class="text-white font-weight-bold">Color Scheme</p>
+                    <p class="text-white d-md-none d-sm-flex">Press the colors:</p>
+                    <div class="row container-color-scheme my-4 my-2">
+                        <div class="color-1 col-3" onmouseover="applyColorOverlay(this)"
+                            onmouseout="removeColorOverlay(this)"></div>
+                        <div class="color-2 col-3" onmouseover="applyColorOverlay(this)"
+                            onmouseout="removeColorOverlay(this)"></div>
+                        <div class="color-3 col-3" onmouseover="applyColorOverlay(this)"
+                            onmouseout="removeColorOverlay(this)"></div>
+                        <div class="color-4 col-3" onmouseover="applyColorOverlay(this)"
+                            onmouseout="removeColorOverlay(this)"></div>
+                    </div>
+
+                    <div class="row my-4">
+                        <div class="col-lg-4 col-6 d-md-flex d-none flex-column">
+                            <p class="text-white font-weight-bold">Typography:</p>
+                            <p class="text-white">Open Sans</p>
+                        </div>
+                        <div class="col-lg-4 col-6 d-md-flex d-none flex-column">
+                            <p class="text-white font-weight-bold">Time to complete:</p>
+                            <p class="text-white">6 Weeks</p>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <a href="https://manganpower.com/" class="btn btn-dark mb-5 btn-block" target="_blank">Visit
+                                Site</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 d-flex align-content-center justify-content-center ">
+                    <div class="row d-flex align-items-center">
+                        <a href="https://manganpower.com/" class="img-a" target="_blank">                            
+                            <img class="img-fluid align-self-center  d-none d-sm-block img-mock-up"
+                                src="images/mangan-mockup.png" alt="Mangan Inc." height="100%">
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Container 1 -->
+        <!-- Start Container 2 -->
+        <div class="container-fluid container-port-2 container-hz d-flex justify-content-center">
+            <div class="color-overlay-2"></div>
+            <div class="row">
+                <div class="col-lg-6 p-5 d-flex flex-column justify-content-center">
+                    <h2 class="text-white mb-4">Ship and Shore <BR>Environmental, Inc</h2>
+                        <div class="row my-2">
+                            <div class="col-lg-5 ">
+                            <h3 class="text-white">Air pollution abatement company</h3>
+                        </div>
+                        <div class="col-lg-7 d-md-flex d-none justify-content-around">
+                            <img src="images/sse-logo-white.png" alt="Ship and Shore Logo" class="img-fluid"
+                                width="100px">
+                            <img src="images/wp-logo.png" alt="WordPress Logo White" class="img-fluid" width="100px">
+                        </div>
+                    </div>
+                    
+                    
+                    <p class="text-white font-weight-bold">The Challenge</p>
+                    <p class="text-white container-text">
+                        Ship & Shore Environmental Inc. needed a website redesign to showcae their air pollution
+                        abatment services in an interesting and engaging way. I designed and developed this website using
+                        Adobe Illustrator, WordPress and Visual Bakery (this is slightly before Elementor rose to fame). Overall our client was very happy with my initial designs and after a few slight modifications I began the build.This website actually generated several other customers, friends of our client, who wanted a similar site.
+
+                    <p class="text-white font-weight-bold">Color Scheme</p>
+                    <p class="text-white d-md-none d-sm-flex">Press the colors:</p>
+                    <div class="row container-color-scheme my-4 my-2">
+                        <div class="col-3 color-1 color" onmouseover="applyColorOverlay2(this)"
+                            onmouseout="removeColorOverlay2(this)"></div>
+                        <div class="col-3 color-2 color" onmouseover="applyColorOverlay2(this)"
+                            onmouseout="removeColorOverlay2(this)"></div>
+                        <div class="col-3 color-3 color" onmouseover="applyColorOverlay2(this)"
+                            onmouseout="removeColorOverlay2(this)"></div>
+                        <div class="col-3 color-4 color" onmouseover="applyColorOverlay2(this)"
+                            onmouseout="removeColorOverlay2(this)"></div>
+                    </div>
+
+                    <div class="row my-4">
+                        <div class="col-lg-4 col-6 d-md-flex d-none flex-column">
+                            <p class="text-white font-weight-bold">Typography:</p>
+                            <p class="text-white">Muli, Helvetica</p>
+                        </div>
+                        <div class="col-lg-4 col-6 d-md-flex d-none flex-column">
+                            <p class="text-white font-weight-bold">Time to complete:</p>
+                            <p class="text-white">6 Weeks</p>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <a href="https://shipandshore.com/" class="btn btn-dark mb-5 btn-block"
+                                target="_blank">Visit
+                                Site</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 d-flex align-content-center justify-content-center ">
+                    <div class="row d-flex align-items-center">
+                        <a href="https://shipandshore.com/" class="img-a"
+                                target="_blank">
+                                <img class="img-fluid align-self-center  d-none d-sm-block img-mock-up"
+                                    src="images/sse-mockup.png" alt="Ship and Shore Environmental, Inc" height="100%">
+                            </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Container 2 -->
+        <!-- Start Container 3 -->
+        <div class="container-fluid container-port-3 container-hz d-flex justify-content-center">
+            <div class="color-overlay-3"></div>
+            <div class="row">
+                <div class="col-lg-6 p-5">
+                    <h2 class="text-white mb-4">Cheef<BR> Botanicals</h2>
+                        <div class="row my-2">
+                            <div class="col-lg-5 ">
+                            <h3 class="text-white">E-Commerce Cannabis</h3>
+
+                        </div>
+                        <div class="col-lg-7 d-md-flex d-none justify-content-around">
+                            <img src="images/cheef-logo.png" alt="Ship and Shore Logo" class="img-fluid" width="100px">
+
+                            <img src="images/wp-logo.png" alt="WordPress Logo White" class="img-fluid" width="100px">
+                        </div>
+                    </div>
+                    <p class="text-white font-weight-bold">The Challenge</p>
+                    <p class="text-white container-text last">
+                        Cheef Botanicals is one of the leading cannabis companies in the online space. As one of four website developers my primary responsabilities included managing Cheef, along with 4 other brands, and
+                        ensuring the site was always ready for sales. Daily duties included creating brand and styles
+                        guidelines, ensuring a cohesive look across the website and creating functionality to increase sales.</p>
+
+                    <p class="text-white font-weight-bold">Color Scheme</p>
+                    <p class="text-white d-md-none d-sm-flex">Press the colors:</p>
+                    <div class="row container-color-scheme my-4 my-2">
+                        <div class="col-3 color-1 color" onmouseover="applyColorOverlay3(this)"
+                            onmouseout="removeColorOverlay3(this)"></div>
+                        <div class="col-3 color-2 color" onmouseover="applyColorOverlay3(this)"
+                            onmouseout="removeColorOverlay3(this)"></div>
+                        <div class="col-3 color-3 color" onmouseover="applyColorOverlay3(this)"
+                            onmouseout="removeColorOverlay3(this)"></div>
+                        <div class="col-3 color-4 color" onmouseover="applyColorOverlay3(this)"
+                            onmouseout="removeColorOverlay3(this)"></div>
+                    </div>
+
+                    <div class="row my-4 ">
+                        <div class="col-lg-4 col-6 d-md-flex d-none flex-column">
+                            <p class="text-white font-weight-bold">Typography:</p>
+                            <p class="text-white">Didact Gothic, Sans Serif</p>
+                        </div>
+                        <div class="col-lg-4 col-6 d-md-flex d-none flex-column">
+                            <p class="text-white font-weight-bold">Ongoing project:</p>
+                            <p class="text-white">Constant update of products images and functionality</p>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <a href="https://cheefbotanicals.com/" class="btn btn-dark mb-5 btn-block"
+                                target="_blank">Visit
+                                Site</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 d-flex align-content-center justify-content-center ">
+                    <div class="row d-flex align-items-center">
+                        <a href="https://cheefbotanicals.com/" class="img-a"
+                        target="_blank">
+                        <img class="img-fluid align-self-center  d-none d-sm-block img-mock-up"
+                            src="images/cheef-mockup.png" alt="Ship and Shore Environmental, Inc" height="100%">
+                    </a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Container 3 -->
+    </div>
+
+    <!-- Start container work  -->
+    <div id="work" class="container-fluid container-work " style="position:relative;">
+        <div class="row">
+            <div class="col-lg-6 information">
+                <h2 class="text-white my-5">Work Experience</h2>
+                <div class="container mb-10 my-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <h3 class="text-white">Website Developer & Designer</h3>
+
+                        <h6 class="text-white">May 2017 - Current (Freelance)</h6>
+                    </div>
+                    <div class="row d-flex align-items-center my-2">
+                        <a href="https://lawebclub.com/" target="_blank" class="mr-3">Los Angeles Web Club</a> &nbsp;
+                        <a href="https://www.instagram.com/lawebclub/">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="row">
+
+                        <p class="text-white">Proud founder of Los Angeles Web Club, a creative design agency focusing
+                            on small businesses. My goal is always to deliver high quality websites that my clients
+                            love. I also use best practices ensuring SEO, site speed and overall file sizes are kept to a
+                            minimum without sacrificing quality. Learn more by visiting the site <a
+                                href="https://lawebclub.com/">Los Angeles Web Club</a>.</p>
+
+                        <button id="workLaWebClub" class="d-none d-lg-block btn btn-dark">Show More</button>
+                    </div>
+                </div>
+
+                <div class="container mb-10 my-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <h3 class="text-white">Front-End Developer</h3>
+
+                        <h6 class="text-white">Jan 2022 - June 2022</h6>
+                    </div>
+                    <div class="row d-flex align-items-center my-2 ">
+                        <a href="https://cheefbotanicals.com/" target="_blank" class="mr-3">Cheef Holdings</a> &nbsp;
+                        <a href="https://www.facebook.com/cheefcbd">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="https://www.instagram.com/cheefbotanicals/">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/cheefbotanicals/">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="row">
+
+                        <p class="text-white">My primary tasks as a front-end developer was to constantly elevate the site. I did this by creating new designs using Adobe XD, having those designed reviewed and if leadership felt the designs were in line with their vision then I would implement those designs using WordPress and Elementor.  I also created new functionality using a variety of plugins. An example of functionality I designed was a product filter which allows users to sort and
+                            browse product inventory without having to scroll through a wall of unoranized products. When I wasn't designing or developing I
+                            would review high traffic pages and optimize them both aestetically and functionally by
+                            breaking up walls of text into neatly ogranized sections, creating web components like
+                            toggles, accorditions or carousels and optimizing images by compressing them while
+                            maintaining image quality.</p>
+                        <button id="workCheef" class="d-none d-lg-block btn btn-dark">Show More</button>
+                    </div>
+                </div>
+
+                <div class="container mb-10 my-4">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <h3 class="text-white">Front-End Developer</h3>
+
+                        <h6 class="text-white">Jan 2018 - Oct 2020</h6>
+                    </div>
+                    <div class="row d-flex align-items-center my-2 ">
+                        <a href="https://www.tlgmarketing.com/" target="_blank" class="mr-3">TLG Marketing</a> &nbsp;
+                        <a href="https://www.facebook.com/tlglb/">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/tlglb">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/company/tlglb/">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="row">
+
+                        <p class="text-white">Responsible for designing, developing and independently managing over 90
+                            client websites. Client industries varied widely covering medical, law and government and all our clients required a fine touch ensuring TLG was always represented as highly professional. My daily responsibilites included
+                            mocking-up websites using Adobe XD then converting those designs into functional
+                            websites using WordPress.</p>
+
+                        <button id="workTlg" class="d-none d-lg-block btn btn-dark">Show More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" style="position:relative;">
+               
+                <div id="workImg" class="work-experience-overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Work  -->
+    <!-- Start Navigation  -->
+    <div id="education" class="container-fluid container-education">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-white my-5">
+                    Education
+                </h2>
+            </div>
+        </div>
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <!-- Carousel Indicators Start  -->
+            <ol class="carousel-indicators">
+              <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel Indicators End  -->
+            <div class="carousel-inner">
+                <!-- Start First Carousel Container  -->
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-items-center fcc">
+                        <img class="img-fluid img-education" src="../images/free-code-camp-white-logo.svg" alt="Free Code Camp" >
+                       &nbsp; <a href="https://www.freecodecamp.org/" target="_blank">
+                            <h2 class="text-white">FreeCodeCamp.Org</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="certified text-white text-center">Responsive Website Design Certified</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row d-flex">                        
+                        <div class="col-md-12 col-lg-3">                    
+
+                            <h4 class="text-white">HTML, CSS Basics</h4>
+                            <ul class="text-white">
+                                <li>CSS Box Model</li>
+                                <li>CSS Flex</li>
+                                <li>CSS Grid</li>
+                                <li>CSS Animation</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <h4 class="text-white">JavaScript Algorithms & Data Structures</h4>
+                            <ul class="text-white" style="columns:2;">
+                                <li>Basic Javascript</li>
+                                <li>ES6</li>
+                                <li>Regular Expressions</li>
+                                <li>Debugging</li>
+                                <li>Basic Data Structures</li>
+                                <li>Basic Algorithm Scripting</li>
+                                <li>Object Oriented Programming</li>
+                                <li>Functional Programming</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 col-lg-3">
+                            <h4 class="text-white">Front-End Development Libraries</h4>
+                            <ul class="text-white">
+                                <li>Bootstrap</li>
+                                <li>jQuery</li>
+                                <li>SASS</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- Start Second Carousel Container  -->
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img class="img-fluid img-education" src="../images/CSU-Longbeach_seal-01.svg" alt="Free Code Camp" >
+                       &nbsp; <a href="https://www.csulb.edu/" target="_blank">&nbsp;
+                            <h2 class="text-white">California State University, Long Beach</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="certified text-white text-center"><a href="https://cla.csulb.edu/departments/journalism/" target="_blank">B.A. Photojournalism</a> & <a href="http://catalog.csulb.edu/preview_program.php?catoid=5&poid=1868">Minor in Website Technologies</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6 col-md-12">
+                            <h4 class="text-white">Photojournalism</h4>
+                            <ul class="text-white">
+                                <li>Learned how to shoot photography for a myriad of events</li>
+                                <li>Learned photo editing which translates perfectlty when working with images</li>
+                                <li>Developed strong writing skills</li>
+                                <li>Developed strong copy-editing skills</li>
+                            </ul>
+                        </div>
+                        <div class=" col-lg-6 col-md-12">
+                            <h4 class="text-white">Minor in Website Technology</h4>
+                            <ul class="text-white" >
+                                <li>CECS - (Computer Engineering Computer Science)</li>
+                                <li>CECS - Critial Thinking in the Digital Age</li>
+                                <li>CECS - Beginning Web Design</li>
+                                <li>CECS - Intermediate Web Design</li>
+                                <li>CECS - Design of Dynamic Website</li>
+                                <li>Media Design: User Centered Design</li>
+                                <li>Accessible Electronic and Information Technologies</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- End Second Container  -->
+              <!-- Start Third Container  -->
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img class="img-fluid img-education" src="../images/elac-logo.png" alt="Free Code Camp" >
+                       &nbsp; <a href="https://www.elac.edu/" target="_blank">&nbsp;
+                            <h2 class="text-white">East Los Angeles Community College</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="certified text-white text-center"><a href="https://www.elac.edu/Academics/Departments/Journalism" target="_blank">A.A. Journalism</a> & <a href="https://www.elac.edu/Academics/Departments/Art/Studio-and-Graphic-Arts/Graphic-Arts-Certificate-and-AA-Degree-Requirement">A.A. Graphic Art</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-lg-6 col-md-12">
+                            <h4 class="text-white">Journalism</h4>
+                            <ul class="text-white" >
+                                <li>Collecting & Writing News</li>
+                                <li>Mass Communications</li>
+                                <li>Practical Editing</li>
+                                <li>Digital Photography</li>
+                                <li>Staff Newspaper Photographer (3 semesters)</li>
+                            </ul>                            
+                        </div>
+                        <div class=" col-lg-6 col-md-12">
+                            <h4 class="text-white">Graphic Art</h4>
+                            <ul class="text-white" >
+                                <li>Drawing</li>
+                                <li>Two-Dimensional Design</li>
+                                <li>Computer Graphics</li>
+                                <li>Typography</li>
+                                <li>Graphic Design I</li>
+                                <li>Desktop Publishing Design</li>
+                                <li>Typography II</li>
+                                <li>Graphic Design II</li>
+                                <li>Intro to Website Design</li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- End Third Container  -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+ 
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-lg-between justify-content-center">
+                <div class="col-lg-3">
+                    <img width="250px" src="https://edwardtonnn.com/wp-content/uploads/2022/03/logo-white.svg" class="img-fluid" alt="Edward Singleton Portfolio website logo white">
+                </div>
+                <div class="col-lg-3">
+                    <div class="container-social-footer">
+                        <a href="https://www.facebook.com/Edwardtonnn" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="https://www.instagram.com/edwardtonnn/" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/edwardtonnn" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/Edwardtonnn" target="_blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a href="https://codepen.io/Edwardtonnn/" target="_blank">
+                            <ion-icon name="logo-codepen"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Import Ion Icons  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Import Bootstrap JS  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+        <!-- Import GSAP library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" ></script>
+    
+   
+    <!-- Custom Menu  -->
+    <script src="js/menu.js"></script>
+    <!-- Custom JS  -->
+    <script src="js/script.js"></script>
+    <!-- Music JS  -->
+    <script src="js/music.js"></script>
+
+
+
+
+</body>
+
+</html>
