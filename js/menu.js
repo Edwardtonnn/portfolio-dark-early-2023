@@ -1,70 +1,80 @@
-tl = new TimelineMax({ paused: true });
+const tll = new TimelineMax({ paused: true });
 
-			tl.to(".menu-left", 1, {
-				left: 0,
-				ease: Expo.easeInOut,
-			});
 
-			tl.to(
-				".menu-right",
-				1,
-				{
-					right: 0,
-					ease: Expo.easeInOut,
-				},
-				"-=1"
-			);
+tll.to(".menu-left", 1, {
+    left: 0,
+    ease: Expo.easeInOut,
+});
 
-			tl.staggerFrom(
-				".menu-links > div",
-				0.8,
-				{
-					y: 100,
-					opacity: 0,
-					ease: Expo.easeOut,
-				},
-				"0.1",
-				"-=0.4"
-			);
+tll.to(
+    ".menu-right",
+    1,
+    {
+        left:'50vw',
+        ease: Expo.easeInOut,
+    },
+    "-=1"
+);
 
-			tl.staggerFrom(
-				".mail > div, .socials > div",
-				0.8,
-				{
-					y: 100,
-					opacity: 0,
-					ease: Expo.easeOut,
-				},
-				"0.1",
-				"-=1"
-			);
+tll.staggerFrom(
+    ".menu-links > div",
+    0.8,
+    {
+        y: 100,
+        opacity: 0,
+        ease: Expo.easeOut,
+    },
+    "0.1",
+    "-=0.4"
+);
 
-			tl.from(
-				".menu-close",
-				1,
-				{
-					scale: 0,
-					opacity: 1,
-					ease: Expo.easeInOut,
-				},
-				"-=1"
-			);
+tll.staggerFrom(
+    ".mail > div, .socials > a",
+    0.8,
+    {
+        y: 100,
+        opacity: 0,
+        ease: Expo.easeOut,
+    },
+    "0.1",
+    "-=1"
+);
 
-			tl.to(
-				".hr",
-				0.4,
-				{
-					scaleY: 1,
-					transformOrigin: "0% 50%",
-					ease: Power2.ease,
-				},
-				"-=2"
-			);
+tll.from(
+    ".menu-close",
+    1,
+    {
+        scale: 0,
+        opacity: 1,
+        ease: Expo.easeInOut,
+    },
+    "-=1"
+);
 
-			tl.reverse();
-			$(document).on("click", ".menu-open", function () {
-				tl.reversed(!tl.reversed());
-			});
-			$(document).on("click", ".menu-close", function () {
-				tl.reversed(!tl.reversed());
-			});
+tll.reverse();
+
+let menuOpen = document.querySelector('.menu-open');
+let menuClose = document.querySelector('.menu-close');
+let menuLink = document.querySelectorAll('.menu-link');
+
+menuOpen.addEventListener('click',()=>{
+    console.log('clicked');
+    tll.reversed(!tll.reversed());
+});
+menuClose.addEventListener('click',()=>{
+    tll.reversed(!tll.reversed());
+});
+
+menuLink.forEach(link =>{
+
+    link.addEventListener('click',()=>{
+        console.log('clicked');
+        tll.reverse();
+    });
+})
+// $(document).on("click", ".menu-open", function () {
+//     tl.reversed(!tl.reversed());
+// });
+// $(document).on("click", ".menu-close", function () {
+//     tl.reversed(!tl.reversed());
+// });
